@@ -1,4 +1,4 @@
-/* Color theme
+/* Old color theme
 black: #262422
 grey: #565853
 green: #4D9154
@@ -8,16 +8,16 @@ white: #DCD9CD
 
 body {
     background-color: #262422;
-    font-family: 'Ropa Sans', sans-serif;
+    font-family: helvetica, arial, sans-serif;
 }
 
 body a {
     color: #DCD9CD;
-    font-family: 'Ropa Sans', sans-serif;
+    font-family: helvetica, arial, sans-serif;
 }
 
 body input {
-    font-family: 'Ropa Sans', sans-serif;
+    font-family: helvetica, arial, sans-serif;
 }
 
 button {
@@ -261,14 +261,16 @@ button.icon-left:before {
 #bottomBar button {
     cursor: pointer;
     border: none;
-    border-radius: 5px;
+    border-radius: 4px;
     color: #DCD9B5;
     font-size: 18px;
     -webkit-appearance: none;
-    font-family: 'Ropa Sans', sans-serif;
+    font-family: helvetica, arial, sans-serif;
     transition: width 200ms, height 200ms ease;
     padding-left: 14px;
+    padding-right:14px;
     padding-top: 5px;
+    padding-bottom:5px;
     pointer-events: auto;
     margin: 0;
 }
