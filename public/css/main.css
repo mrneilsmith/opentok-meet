@@ -5,14 +5,23 @@ green: #4D9154
 red: #C04B4B
 white: #DCD9CD
  */
+ 
+ /* Color theme
+black: #262422
+@brand-primary: #428bca;
+@brand-success: #5cb85c;
+@brand-info: #5bc0de;
+@brand-warning: #f0ad4e;
+@brand-danger: #d9534f;
+ */
 
 body {
-    background-color: #262422;
+    background-color: #fff;
     font-family: helvetica, arial, sans-serif;
 }
 
 body a {
-    color: #DCD9CD;
+    color: #428bca;
     font-family: helvetica, arial, sans-serif;
 }
 
@@ -71,7 +80,7 @@ div#facePublisher {
     right: 0;
 }
 ot-layout ot-subscriber {
-    background-color: #262422;
+    background-color: #fff;
     display: inline-block;
 }
 ot-layout {
@@ -141,17 +150,17 @@ ot-whiteboard:not(.ng-hide), ot-editor:not(.ng-hide), opentok-textchat:not(.ng-h
 
 ot-whiteboard {
     display: none;
-    background-color: #DCD9CD;
+    background-color: #fff;
 }
 
 ot-editor {
     display: none;
-    background-color: #DCD9CD;
+    background-color: #fff;
     padding: 0;
 }
 
 ot-editor .CodeMirror {
-    background-color: #DCD9CD;
+    background-color: #fff;
     padding: 10px;
 }
 

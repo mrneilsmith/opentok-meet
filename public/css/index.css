@@ -1,15 +1,16 @@
 /* Color theme
 black: #262422
-grey: #565853
-green: #4D9154
-red: #C04B4B
-white: #DCD9CD
+@brand-primary: #428bca;
+@brand-success: #5cb85c;
+@brand-info: #5bc0de;
+@brand-warning: #f0ad4e;
+@brand-danger: #d9534f;
  */
 
 body {
     margin: 0;
     padding: 0;
-    color: #DCD9CD;
+    color: #fff;
 }
 
 #wrapper {
@@ -47,7 +48,7 @@ form#joinRoom input[type='text'] {
     padding: 0 0 0 10px;
     margin: 0;
     border-radius: 5px;
-    background-color: #262422;
+    background-color: #fff;
     border: 1px solid #DCD9CD;
     color: #DCD9CD;
 }
@@ -62,9 +63,9 @@ form#joinRoom input[type='submit'] {
     font-family: 'Ropa Sans', sans-serif;
     width: 100px;
     height: 40px;
-    background-color: #4D9154;
+    background-color: #428bca;
     border: none;
-    color: #DCD9CD;
+    color: #fff;
     border-radius: 5px;
     margin: 0;
     padding: 0;
