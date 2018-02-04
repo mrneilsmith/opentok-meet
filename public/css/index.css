@@ -1,5 +1,5 @@
 /* Color theme
-black: #262422
+black: #262422;
 @brand-primary: #428bca;
 @brand-success: #5cb85c;
 @brand-info: #5bc0de;
@@ -10,7 +10,7 @@ black: #262422
 body {
     margin: 0;
     padding: 0;
-    color: #fff;
+    color: #262422;
 }
 
 #wrapper {
@@ -50,7 +50,7 @@ form#joinRoom input[type='text'] {
     border-radius: 5px;
     background-color: #fff;
     border: 1px solid #DCD9CD;
-    color: #DCD9CD;
+    color: #262422;
 }
 
 @media screen and (max-width: 650px) {
