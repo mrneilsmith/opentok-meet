@@ -43,7 +43,7 @@ form#joinRoom #inputs #p2pCheckbox, #advancedLink {
 form#joinRoom input[type='text'] {
     font-family: 'Ropa Sans', sans-serif;
     width: 200px;
-    height: 40px;
+    height: 38px;
     font-size: 20px;
     padding: 0 0 0 10px;
     margin: 0;
@@ -75,6 +75,6 @@ form#joinRoom input[type='submit'] {
 
 img.logo {
     width: 120px;
-    height: 90px;
-    margin-bottom: 30px;
+    height: 79px;
+    margin-bottom: 10px;
 }
