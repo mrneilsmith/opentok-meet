@@ -10,7 +10,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1">
         <link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/<%=chromeExtensionId%>">
         <link rel="icon" sizes="128x128" href="icon.png">
-        <title>OpenTok Meet : <%=room%></title>
+        <title>ProfilerLive Meet : <%=room%></title>
         <link href='//fonts.googleapis.com/css?family=Ropa+Sans' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="/css/main.css" media="screen" title="no title" charset="utf-8">
         <link rel="stylesheet" href="/css/ng-embed.min.css" media="screen" title="no title" charset="utf-8">
@@ -120,8 +120,7 @@
             <button name="changeRoom" id="changeRoom" ng-click="changeRoom()" class="icon-left ion-log-out red" title="Leave">Leave</button>
         </div>
         <div id="footer">
-            <a href="https://github.com/aullman/opentok-meet" target="_blank"><i class="ion-social-github" title="View source on GitHub"></i></a>
-            <a href="https://github.com/aullman/opentok-meet/issues/new" target="_blank"><i class="ion-bug" title="Report Issue"></i></a>
+           
         </div>
         <i id="connCount" class="ion-ios7-people" title="{{connections.length}} participant in the room"> {{connections.length}}</i>
         <div id="statusMessages">
@@ -138,18 +137,6 @@
                 chromeExtensionId: '<%=chromeExtensionId%>'
             });
         </script>
-        <script type="text/javascript">
-
-          var _gaq = _gaq || [];
-          _gaq.push(['_setAccount', 'UA-49010461-2']);
-          _gaq.push(['_trackPageview']);
-
-          (function() {
-            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-          })();
-
-        </script>
+        
     </body>
 </html>
